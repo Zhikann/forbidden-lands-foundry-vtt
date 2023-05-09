@@ -216,8 +216,7 @@ export class ForbiddenLandsActorSheet extends ActorSheet {
 		if (this.actor.type === "character") {
 			// Get the weight of all consumables
 			for (let consumable of Object.values(data.system.consumable)) {
-				if (consumable.value > 0) {
-					weightCarried += 1;
+				if (consumable.label != "CONSUMABLE.HYGIENE") consumable.value > 0  && (weightCarried += 1);
 				}
 			}
 

@@ -95,6 +95,8 @@
 	"CONDITION.SLEEPY": "Épuisé",
 	"CONDITION.SUFFERING_FROM": "souffre de",
 	"CONDITION.THIRSTY": "Assoiffé",
+	"CONDITION.FILTHY": "Sale",
+	"CONDITION.INTOXICATED": "Intoxiqué",
 	"CONFIG.ALTERNATIVESKULLS_DESC": "Change l'apparence et le mode d'interaction des Attribut/Bonus/Volonté.",
 	"CONFIG.ALTERNATIVESKULLS": "Interaction alternative de la fiche de personnage",
 	"CONFIG.APPEARANCEFIELD_DESC": "Utilisé pour afficher ou cacher l'apparence sur les fiches d'objet.",

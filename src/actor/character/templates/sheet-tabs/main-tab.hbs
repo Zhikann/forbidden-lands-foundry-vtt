@@ -46,6 +46,16 @@
                 {{localize "CONDITION.COLD"}}
                 <i class="far {{#if system.condition.cold.value}}fa-times-circle{{else}}fa-circle{{/if}}"></i>
             </a>
+            <a class="condition {{# if system.condition.filthy.value}}active{{/if}}" data-condition="filthy"
+                title="{{localize "CONDITION.FILTHY"}}">
+                {{localize "CONDITION.FILTHY"}}
+                <i class="far {{#if system.condition.filthy.value}}fa-times-circle{{else}}fa-circle{{/if}}"></i>
+            </a>
+            <a class="condition {{# if system.condition.intoxicated.value}}active{{/if}}" data-condition="intoxicated"
+                title="{{localize "CONDITION.INTOXICATED"}}">
+                {{localize "CONDITION.INTOXICATED"}}
+                <i class="far {{#if system.condition.intoxicated.value}}fa-times-circle{{else}}fa-circle{{/if}}"></i>
+            </a>
         </div>
     </div>
 

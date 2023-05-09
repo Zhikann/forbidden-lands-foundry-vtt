@@ -204,8 +204,16 @@
 				"cold": {
 					"label": "CONDITION.COLD",
 					"value": false
-				}
-			},
+				},
+				"filthy": {
+					"label": "CONDITION.FILTHY",
+					"value": false
+				},
+				"intoxicated": {
+					"label": "CONDITION.INTOXICATED",
+					"value": false
+				}	
+			},  
 			"consumable": {
 				"food": {
 					"label": "CONSUMABLE.FOOD",

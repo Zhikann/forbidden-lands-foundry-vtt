@@ -33,6 +33,7 @@ export class CharacterConverter {
 				water: { value: profession.consumables.water },
 				arrows: { value: profession.consumables.arrows },
 				torches: { value: profession.consumables.torches },
+				hygiene: { value: profession.consumables.hygiene },
 			},
 			currency: {
 				gold: { value: profession.currency.gold > 0 ? this.rollNumber(1, profession.currency.gold) : 0 },

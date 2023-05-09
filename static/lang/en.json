@@ -94,6 +94,8 @@
 	"CONDITION.SLEEPY": "Sleepy",
 	"CONDITION.SUFFERING_FROM": "is suffering from",
 	"CONDITION.THIRSTY": "Thirsty",
+	"CONDITION.FILTHY": "Filthy",
+	"CONDITION.INTOXICATED": "Intoxicated",
 	"CONFIG.ALTERNATIVESKULLS_DESC": "Changes the looks and interaction of Attribute/Bonus/Willpower clickable circles in the Character, Monster and Item sheets.",
 	"CONFIG.ALTERNATIVESKULLS": "Alternative Sheet Interaction",
 	"CONFIG.APPEARANCEFIELD_DESC": "Used to show or hide the appearance field on item sheets.",
