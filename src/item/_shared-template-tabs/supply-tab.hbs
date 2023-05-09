@@ -1,9 +1,11 @@
 {{#if (or showCostField showSupplyField)}}
 	<div class="supply border">
-		{{#if showCostField}}
-			<label>{{localize "GEAR.COST"}}</label>
-			<input name="system.cost" type="text" value="{{system.cost}}" />
-		{{/if}}
+		{{#if isGM}}
+			{{#if showCostField}}
+				<label>{{localize "GEAR.COST"}}</label>
+				<input name="system.cost" type="text" value="{{system.cost}}" />
+			{{/if}}
+		{{/if}}	
 		{{#if showSupplyField}}
 			<label>{{localize "GEAR.SUPPLY"}}</label>
 			<input name="system.supply" type="text" value="{{system.supply}}" />
